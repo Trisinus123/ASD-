@@ -1,0 +1,45 @@
+class PencarianMhs {
+	Mahasiswa[] listMhs; 
+	int idx;
+
+	PencarianMhs(int x) {
+		listMhs = new Mahasiswa[x];
+	}
+
+	void tambah(Mahasiswa m) {
+		if (idx < listMhs.length) {
+			listMhs[idx] = m;
+			idx++;
+		} else {
+			System.out.println("Data sudah penuh !! ");
+		}
+	}
+
+	void tampil() {
+		for (Mahasiswa m:listMhs) {
+			m.tampil();
+			System.out.println("----------------------");
+		}
+	}
+
+	void findSeqSearch(String cari) {
+		int posisi = -1;
+		for (int i = 0; i < listMhs.length; i++) {
+			if (listMhs[i].nama.equalsIgnoreCase(cari)) {
+				posisi = i;
+				tampilData(cari,posisi);
+			}
+		}
+	}
+
+	void tampilData(String x, int pos) {
+		if (pos != -1) {
+			System.out.println("Nim : " + listMhs[pos].nim);
+			System.out.println("Nama : " + x);
+			System.out.println("Umur    : " + listMhs[pos].umur); 
+			System.out.println("IPK : " + listMhs[pos].ipk);
+		} else {
+			System.out.println("data " + x + " tidak ditemukan");
+		}
+	}
+}
