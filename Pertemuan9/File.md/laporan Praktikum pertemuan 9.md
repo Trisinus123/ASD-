@@ -44,9 +44,9 @@
 
    ![Screnshot](TangkapanLayarpertanyaan4Percobaa.png)
    ![Screnshot](TangkapanLayarStacPertanyaan4percobaan1.png)
-   ![Screnshot](TangkapanLayarStac1pertanyaan4percobaan1.png)
+   ![Screnshot](TangkapanLayarStac1Pertanyaan4percobaan1.png)
    ![Screnshot](TangkapanLayarpertanyaan4Percobaa1.png)
-   ![Screnshot]( TangkapanLayar1pertanyaan4Percobaa1.png)
+   ![Screnshot](TangkapanLayar1pertanyaan4Percobaa1.png)
    ![Screnshot](TangkapanLayarRunpertanyaan4percobaa1.png)
    ![Screnshoot](TangkapanLayarRun1pertanyaan4percobaa1.png)
    
